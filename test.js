@@ -3,6 +3,7 @@ function test(err, stdout, stdrr) {
 console.log("err: " + err)
 console.log("stdout: " + stdout)
 console.log("stdrr: " + stdrr)
+console.log(" ")
 
   if (show.match("nothing to commit")) {
     console.log("Changes have been committed!")
